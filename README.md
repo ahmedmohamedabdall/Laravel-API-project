@@ -21,3 +21,32 @@
    ```bash
    git clone git@github.com:ahmedmohamedabdall/traverse-video.git
    cd traverse-video
+2.Install Dependencies
+
+bash
+
+composer install
+
+3.Set Up Environment File Copy the .env.example file to .env and configure your database settings.
+
+bash
+
+cp .env.example .env
+
+4.Generate Application Key
+
+bash
+
+php artisan key:generate
+
+5.Run Migrations
+
+bash
+
+php artisan migrate
+
+6.Start the Development Server
+
+bash
+
+php artisan serve
